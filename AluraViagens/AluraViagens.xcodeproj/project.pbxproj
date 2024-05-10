@@ -14,6 +14,8 @@
 		539F97A92BEE7EA100374E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539F97A82BEE7EA100374E19 /* Assets.xcassets */; };
 		539F97AC2BEE7EA100374E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539F97AA2BEE7EA100374E19 /* LaunchScreen.storyboard */; };
 		539F97B42BEE895500374E19 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 539F97B32BEE895500374E19 /* .gitignore */; };
+		53E033072BEECA0700046B3F /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E033062BEECA0700046B3F /* HomeTableViewHeader.xib */; };
+		53E033092BEECBCB00046B3F /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E033082BEECBCB00046B3F /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		539F97AB2BEE7EA100374E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		539F97AD2BEE7EA100374E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		539F97B32BEE895500374E19 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		53E033062BEECA0700046B3F /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		53E033082BEECBCB00046B3F /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				539F97A82BEE7EA100374E19 /* Assets.xcassets */,
 				539F97AA2BEE7EA100374E19 /* LaunchScreen.storyboard */,
 				539F97AD2BEE7EA100374E19 /* Info.plist */,
+				53E033062BEECA0700046B3F /* HomeTableViewHeader.xib */,
+				53E033082BEECBCB00046B3F /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				539F97B42BEE895500374E19 /* .gitignore in Resources */,
 				539F97AC2BEE7EA100374E19 /* LaunchScreen.storyboard in Resources */,
+				53E033072BEECA0700046B3F /* HomeTableViewHeader.xib in Resources */,
 				539F97A92BEE7EA100374E19 /* Assets.xcassets in Resources */,
 				539F97A72BEE7E9B00374E19 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539F97A42BEE7E9B00374E19 /* ViewController.swift in Sources */,
+				53E033092BEECBCB00046B3F /* HomeTableViewHeader.swift in Sources */,
 				539F97A02BEE7E9B00374E19 /* AppDelegate.swift in Sources */,
 				539F97A22BEE7E9B00374E19 /* SceneDelegate.swift in Sources */,
 			);
