@@ -18,14 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ISi-dq-gkG">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ISi-dq-gkG">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="Wqv-L1-J1X"/>
                         <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="Wqv-L1-J1X" firstAttribute="bottom" secondItem="ISi-dq-gkG" secondAttribute="bottom" id="B0f-Yu-UXn"/>
+                            <constraint firstItem="ISi-dq-gkG" firstAttribute="leading" secondItem="Wqv-L1-J1X" secondAttribute="leading" id="HcQ-BG-0vc"/>
+                            <constraint firstItem="ISi-dq-gkG" firstAttribute="top" secondItem="Wqv-L1-J1X" secondAttribute="top" id="LTX-eE-0jz"/>
+                            <constraint firstItem="Wqv-L1-J1X" firstAttribute="trailing" secondItem="ISi-dq-gkG" secondAttribute="trailing" id="dMl-RY-ap3"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="viagensTableView" destination="ISi-dq-gkG" id="9HP-ci-Nsr"/>

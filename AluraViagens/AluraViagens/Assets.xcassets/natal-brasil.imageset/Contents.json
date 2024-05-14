@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "natal-brasil.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

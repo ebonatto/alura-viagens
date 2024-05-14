@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         viagensTableView.dataSource = self
         viagensTableView.delegate = self
+        viagensTableView.sectionHeaderTopPadding = 0
     }
 }
 extension ViewController: UITableViewDataSource {
@@ -33,7 +34,7 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self)?.first as? HomeTableViewHeader
-        
+        headerView?.configuraView()
         return headerView
     }
     
