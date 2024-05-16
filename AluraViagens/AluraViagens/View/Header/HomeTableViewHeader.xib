@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -20,10 +20,13 @@
                     <rect key="frame" x="-303.66666666666669" y="0.0" width="1000.3333333333335" height="250"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alura Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrY-WB-Zgi">
-                            <rect key="frame" x="319.66666666666669" y="48" width="361.00000000000006" height="29"/>
+                            <rect key="frame" x="319.66666666666669" y="48" width="361.00000000000006" height="28.666666666666671"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                            </variation>
                         </label>
                     </subviews>
                     <color key="backgroundColor" name="AccentColor"/>
@@ -45,21 +48,31 @@
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                    </variation>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ofertas exclusivas, somente no nosso app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40N-M8-0A0">
                                     <rect key="frame" x="16" y="75.666666666666657" width="168" height="38.333333333333343"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                    </variation>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstItem="cAe-9p-lmI" firstAttribute="top" secondItem="U1c-kg-yZe" secondAttribute="top" constant="16" id="Ses-ev-CBX"/>
+                                <constraint firstItem="cAe-9p-lmI" firstAttribute="top" secondItem="U1c-kg-yZe" secondAttribute="top" constant="16" id="Ses-ev-CBX">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="24"/>
+                                </constraint>
                                 <constraint firstAttribute="trailing" secondItem="40N-M8-0A0" secondAttribute="trailing" constant="16" id="V7B-Ur-i2h"/>
                                 <constraint firstItem="cAe-9p-lmI" firstAttribute="leading" secondItem="U1c-kg-yZe" secondAttribute="leading" constant="16" id="h6M-9c-3ny"/>
                                 <constraint firstAttribute="trailing" secondItem="cAe-9p-lmI" secondAttribute="trailing" constant="16" id="h7e-dB-fft"/>
-                                <constraint firstAttribute="bottom" secondItem="40N-M8-0A0" secondAttribute="bottom" constant="16" id="i11-2f-bjK"/>
+                                <constraint firstAttribute="bottom" secondItem="40N-M8-0A0" secondAttribute="bottom" constant="16" id="i11-2f-bjK">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="24"/>
+                                </constraint>
                                 <constraint firstItem="40N-M8-0A0" firstAttribute="leading" secondItem="U1c-kg-yZe" secondAttribute="leading" constant="16" id="zx4-Ux-FGX"/>
                             </constraints>
                         </view>
